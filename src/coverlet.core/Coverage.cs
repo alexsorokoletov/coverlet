@@ -15,7 +15,7 @@ using Newtonsoft.Json.Linq;
 namespace Coverlet.Core
 {
     [DataContract]
-    internal class CoverageParameters
+    public class CoverageParameters
     {
         [DataMember]
         public string Module { get; set; }
